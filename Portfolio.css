@@ -1,0 +1,52 @@
+
+header img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 15%;
+  border-radius: 100%;
+}
+
+h1 {
+  font-family: "Helvetica";
+  font-size: 80px;
+  font-weight: 500;
+  color: #36454f;
+  text-align: center;
+}
+
+p {
+  font-family: "verdana";
+  font-size: 14px;
+  color: #36454f;
+  display:block;
+  width: 50%;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+
+ul.contact{
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contact img{
+  width: 100%;
+}
+
+.contact li{
+  list-style-type: none;
+  display: inline;
+  padding: 10%;
+  width: 5%;
+  margin: 0;
+}
+
+/* .table {
+  display: table;
+  margin: 0 auto;
+} */
