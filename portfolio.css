@@ -27,6 +27,17 @@ p {
   text-align: center;
 }
 
+a:link {
+  color: #8f9092e3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1a1e1a;
+}
+a:visited {
+  color: #8f9092e3;
+}
 
 ul.contact{
   display: flex;
@@ -38,6 +49,11 @@ ul.contact{
   width: 100%;
 }
 
+.contact img:hover {
+  border: 10px;
+  border-color: green; 
+}
+
 .contact li{
   list-style-type: none;
   display: inline;
@@ -46,7 +62,9 @@ ul.contact{
   margin: 0;
 }
 
-/* .table {
-  display: table;
-  margin: 0 auto;
-} */
+.contact li:hover{
+  border: 1px hotpink:
+  margin: -1px;
+}
+
+
