@@ -1,0 +1,44 @@
+Why Do You Want To Be A Developer?
+The Answer I Wish I Gave At Interview
+
+I had my first cultural tech interview yesterday,
+after applying for a fellowship with Makers
+Academy. I was asked why I wanted to be a
+software engineer. My vague answer - which I
+think does me a disservice - is that it's fun.
+Cringe.
+
+I've reflected on this question and on why I've
+chosen software development over myriad paths
+of curiosity.  Here's a more complete answer:
+I'm good at it.
+
+What makes _you_ so sure, wise guy?
+
+Non-technical experience is transferable;
+Many skills in my previous job apply here,
+I'm talking about leadership, communication,
+problem solving, planning, project delivery,
+workflow optimisation... a programming
+career will build on my existing foundation
+and on what I've learned through practical
+experience.
+But, more than this, programming 'clicks' with
+my intuition.  I have meticulous attention to 
+detail (don't @ me - I've learned not to let
+this block my delivery), and I enjoy problem
+solving and taking an unusual view of a problem
+- outside of the box thinking is useful in a tech
+ team! - and this is what I find enjoyable when I
+ write programs.
+
+If you're in a similar position and are considering
+a career change into tech, reviewing which
+aspects of your foundation knowledge and skills
+are transferable will help you answer "why?".
+Thinking about how I demonstrated these skills in
+the past and where my experience could benefit
+me more if reframed in a technical context,
+helped boost my confidence in my background
+and helped draw attention to where I needed to
+focus my development.
