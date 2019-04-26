@@ -55,7 +55,7 @@ main {
 }
 
 .portrait {
-  padding: 60px 20px 20px 60px;
+  padding: 20px;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-column-start: 1;
@@ -63,6 +63,14 @@ main {
   grid-row-start: 1;
   grid-row-end: 3;
   width: 370px;
+  background-size: 100%;
+  background: url("images/RB_01.png") no-repeat;
+  background-position: center;
+}
+
+.portrait:hover {
+  background: url("images/RB_02.png") no-repeat;
+  background-position: center;
 }
 
 .intro {
