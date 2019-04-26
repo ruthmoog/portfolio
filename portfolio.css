@@ -126,6 +126,9 @@ h2 {
 p a {
   color: #089ea8;
   text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: #089ea8;
 }
 
 p a:hover {
