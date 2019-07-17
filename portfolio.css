@@ -77,7 +77,6 @@ main {
   grid-row-start: 1;
   grid-column-end: 3;
   padding: 60px 20px 20px;
-  min-width: 450px;
 }
 
 h2 {
@@ -109,6 +108,7 @@ h2 {
   margin: 5px;
   padding: 10px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .social a:hover {
