@@ -52,19 +52,38 @@ main {
   display: grid;
   grid-template-rows: 2fr 200px 3fr;
   grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+    "portrait intro"
+    "portrait social"
+    "complementary complementary";
+}
+
+@media(max-width: 500px) {
+  main {
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "portrait"
+      "intro"
+      "social"
+      "complementary";
+  
+  }
 }
 
 .portrait {
   padding: 20px;
-  grid-column-start: 1;
+  /* grid-column-start: 1;
   grid-column-end: 4;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 3; */
+  grid-area: portrait;
   background: url("images/RB_01.png") no-repeat;
   background-position: top center;
   background-size: contain;
+  min-height: 300px
 }
 
 .portrait:hover {
@@ -73,9 +92,10 @@ main {
 }
 
 .intro {
-  grid-row-start: 1;
-  grid-column-end: 3;
-  padding: 60px 20px 20px;
+  /* grid-row-start: 1;
+  grid-column-end: 3; */
+  grid-area: intro;
+  padding: 20px 20px 20px;
 }
 
 h2 {
@@ -91,10 +111,11 @@ h2 {
 }
 
 .social {
-  grid-column-start: 2;
+  /* grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-end: 3; */
+  grid-area: social;
   padding: 20px
 }
 
@@ -116,10 +137,11 @@ h2 {
 }
 
 .complementary {
-  grid-column-start: 1;
+  /* grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-end: 4; */
+  grid-area: complementary;
   padding: 20px 20px 20px 60px;
 }
 
