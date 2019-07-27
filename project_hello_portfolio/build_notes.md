@@ -15,3 +15,20 @@
 # Accessibility is kinda hard...
 
  - you can use the WAVE tool from webAIM to get advice http://wave.webaim.org
+
+# Notes from Codebar summer 2019
+
+buttons do not need a min width, use `display: inline-block;`
+
+starlogs.net
+css games codepip
+
+cntrl + r for git msg search
+
+portrait make a div instead of img & remove the alt & width
+give a min-height so it dont go tiny tiny
+
+background pos - top center
+bg size: contain;
+
+swap out grid template column/rows to area, point to the area within the grid now
