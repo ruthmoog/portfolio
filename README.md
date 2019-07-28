@@ -8,20 +8,26 @@ Direct the browser to [ruthmoog.dev](ruthmoog.dev) or the temp url `https://inte
 
 ### Remind me how to deploy...
 
+send to the GitHub repo:
 ```shell
-$ git push # will send to github repo
-$ git push heroku master # will send to heroku and deploy
+$ git push
+```
+send to Heroku and deploy:
+```shell
+$ git push heroku master
 ```
 
 ## Technology
 
-- [Heroku](https://www.heroku.com/) - a cloud platform service
-- [HTML5](https://w3.org/html/logo) - magic
-- CSS
+ - [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3) - a cascading style sheets language
+ - [Heroku](https://www.heroku.com/) - a cloud platform service
+ - [HTML5](https://w3.org/html/logo) - an internet document mark-up language
+
 
 ## References
 
-- [How to run a html/css/js app on Heroku](https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b)
+- "[How to run a html/css/js app on Heroku](https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b)"
+- [Gitmoji](https://gitmoji.carloscuesta.me/), an emoji guide for fun, semantic commit messages
 
 ## Wireframes
 
