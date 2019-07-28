@@ -83,12 +83,9 @@ main {
 
 .portrait:hover {
   background-image: url("images/RB_02.png");
-  /* background-position: center; */
 }
 
 .intro {
-  /* grid-row-start: 1;
-  grid-column-end: 3; */
   grid-area: intro;
   padding: 20px 20px 20px;
 }
@@ -107,10 +104,6 @@ p {
 }
 
 .social {
-  /* grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3; */
   grid-area: social;
   padding: 20px
 }
@@ -133,10 +126,6 @@ p {
 }
 
 .complementary {
-  /* grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4; */
   grid-area: complementary;
   padding: 20px 20px 20px 60px;
 }
