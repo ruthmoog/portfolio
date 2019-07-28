@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  width: 100%;
+  width: 150%;
   height: 68px;
   padding-top: 6px;
   border-bottom: 8px solid #e2ebeb;
@@ -17,15 +17,28 @@ header {
 h1 {
   display: inline;
   font-family: 'Archivo', sans-serif;
-  font-size: 60px;
   color: #FDFFFC;
   padding: 0px 60px 0px 60px;
   vertical-align: top;
 }
 
+@media (min-width: 451px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 45px;
+    white-space: nowrap;
+  }
+}
+
 nav {
   display: inline;
 }
+
 nav a {
   font-family: 'Kalam', cursive;
   font-size: 30px;
@@ -67,7 +80,6 @@ main {
       "intro"
       "social"
       "complementary";
-  
   }
 }
 
