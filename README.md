@@ -23,6 +23,7 @@ $ git push heroku master
  - [Heroku](https://www.heroku.com/) - a cloud platform service
  - [HTML5](https://w3.org/html/logo) - an internet document mark-up language
 
+![Lighthouse check](./images/lighthouse.png)
 
 ## References
 
