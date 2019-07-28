@@ -73,17 +73,12 @@ main {
 
 .portrait {
   padding: 20px;
-  /* grid-column-start: 1;
-  grid-column-end: 4;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 3; */
   grid-area: portrait;
   background: url("images/RB_01.png") no-repeat;
   background-position: top center;
   background-size: contain;
-  min-height: 300px
+  min-height: 300px;
+  margin: 10%;
 }
 
 .portrait:hover {
@@ -103,6 +98,7 @@ h2 {
   color: #114B5F;
   font-family: 'Kalam', cursive;
   line-height: 1.2em;
+  margin-top: 1%;
 }
 
 p {
