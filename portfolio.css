@@ -156,7 +156,7 @@ p a {
   background: #F1FAFE;
 }
 
-p a:hover {
+p a:hover, a:focus {
   color: #ffffff;
   background-color: #089ea8;
 }
