@@ -25,6 +25,8 @@ $ git push heroku master
 
 ![Lighthouse check](./images/lighthouse.png)
 
+This website is cleaner than 91% of websites tested by [Website Carbon Calculator](https://www.websitecarbon.com/website/ruthmoog-dev/)
+
 ## References
 
 - "[How to run a html/css/js app on Heroku](https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b)"
