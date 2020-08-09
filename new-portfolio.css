@@ -1,0 +1,199 @@
+* {
+  /* border: 0.5px solid coral; */
+}
+
+header {
+  width: 100%;
+  height: 42px;
+  border-bottom: 8px solid #000000;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+nav {
+  height: 11px;
+}
+
+nav a, footer a{
+  font-family: Calibri, sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 13px;
+  text-align: left;
+  margin-right: 30px;
+  float: right;
+  text-decoration: none;
+  color: #000000;
+}
+
+nav a:hover {
+  border-bottom: 4px solid #04e3f3;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  
+  nav a {
+    letter-spacing: 0;
+    margin-right: 20px;
+  }
+
+  .complementary p {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .intro {
+    padding-right: 0 !important;
+  }
+
+  /* main {
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "portrait"
+      "intro"
+      "complementary";
+  }
+
+  .complementary {
+    padding: 20px 20px 20px 20px;
+  } */
+}
+
+h1 {
+  font-family: Didot, serif;
+  color: #000000;
+  padding: 0px 10px 10px;
+  vertical-align: top;
+  font-size: 40px;
+  white-space: nowrap;
+  margin-bottom: -4px;
+}
+
+body {
+  font-family: Didot, sans-serif;
+  color: #000000;
+  margin: 20px;
+  background-color: #fffdfb;
+}
+
+/* ^^ that's the universal top bar done... */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas: 
+    "portrait intro "
+    "complementary complementary";
+}
+
+.portrait {
+  padding: 20px;
+  grid-area: portrait;
+  background: url("images/RB_03.png") no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 245px;
+  width: 245px;
+  border-radius: 100%;
+  margin: 10%;
+
+}
+
+.portrait:hover {
+  background-image: url("images/RB_04.png");
+}
+
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+  main {
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "portrait"
+      "intro"
+      "complementary";
+  }
+  .complementary {
+    padding: 0 !important;
+  }
+
+}
+
+h2 {
+  font-size: 33px;
+}
+
+.intro {
+  padding-right: 90px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.5em;
+}
+
+p a {
+  color: #114b5f;
+  text-decoration: none;
+  text-decoration-color: #04e3f3;
+  border-bottom: #04e3f3 dashed 2px;
+  background: #f1fafe;
+}
+
+p a:hover, a:focus {
+  color: #ffffff;
+  background-color: #000000;
+  border-bottom-style: none;
+}
+
+.complementary {
+  grid-area: complementary;
+  padding: 20px 90px 20px 90px;
+}
+
+.complementary p {
+  width: 70%;
+  margin-left: 30%;
+}
+
+h3 {
+  font-size: 30px;
+  color: #000000;
+  line-height: 1.2em;
+  border-bottom: 8px solid #04e3f3;
+}
+
+/* and below is the universal footer style... */
+footer{
+  text-align: left;
+  color: #000000;
+  font-size: 13px;
+
+}
+
+/* .social {
+  padding: 0px 25%;
+  font-family: Calibri, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  display: inline-block;
+  width: 52%;
+}
+
+.social a {
+  border: 1px solid #114B5F;
+  font-size: 17px;
+  color: #114B5F;
+  box-shadow: 0.5px 0.5px 1px #e2ebeb;
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.social a:hover {
+  color: #ffffff;
+  background-color: #089ea8;
+} */
+
