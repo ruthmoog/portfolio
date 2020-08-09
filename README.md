@@ -14,6 +14,7 @@ $ git push
 ```
 send to Heroku and deploy:
 ```shell
+$ heroku login
 $ git push heroku master
 ```
 
