@@ -35,6 +35,7 @@ This website is cleaner than 92% of websites tested by [Website Carbon Calculato
 
 - "[How to run a html/css/js app on Heroku](https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b)"
 - [Gitmoji](https://gitmoji.carloscuesta.me/), an emoji guide for fun, semantic commit messages
+- [Website energy efficiency](https://www.wholegraindigital.com/blog/website-energy-efficiency/)
 
 ## Wireframes
 
