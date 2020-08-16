@@ -4,7 +4,8 @@ Welcome to the project info for my personal portfolio website!
 
 ## Using the site
 
-Direct the browser to [ruthmoog.dev](https://www.ruthmoog.dev) or the temp url `https://intense-badlands-89473.herokuapp.com/`
+Direct the browser to [ruthmoog.dev](https://www.ruthmoog.dev)
+<!-- or the temp url `https://intense-badlands-89473.herokuapp.com/` -->
 
 ### Remind me how to deploy...
 
@@ -12,11 +13,13 @@ send to the GitHub repo:
 ```shell
 $ git push
 ```
-send to Heroku and deploy:
+
+:rocket: Automatic deploys are enabled via Heroku
+<!-- send to Heroku and deploy:
 ```shell
 $ heroku login
 $ git push heroku master
-```
+``` -->
 
 ## Technology
 
