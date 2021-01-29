@@ -88,6 +88,16 @@ main {
     "complementary complementary";
 }
 
+.manual {
+  font-size: 200px;
+  text-align: center;
+  padding: 20px;
+  grid-area: portrait;
+  height: 245px;
+  width: 245px;
+  margin: 10%;
+        }
+
 .portrait {
   padding: 20px;
   grid-area: portrait;
@@ -98,7 +108,6 @@ main {
   width: 245px;
   border-radius: 100%;
   margin: 10%;
-
 }
 
 .portrait:hover {
