@@ -21,6 +21,8 @@ $ heroku login
 $ git push heroku master
 ``` -->
 
+:bulb: If changes are not immediate, purge cache in Cloudflare 
+
 ## Technology
 
  - [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3) - a cascading style sheets language
