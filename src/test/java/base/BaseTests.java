@@ -2,6 +2,9 @@ package base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import pages.IndexPage;
 
 import static java.lang.String.format;
 
@@ -9,18 +12,20 @@ public class BaseTests {
 
     public static final String PORTFOLIO_URL = "https://ruthmoog.dev/";
     private WebDriver driver;
+    protected IndexPage indexPage;
 
     /**
      * Set up tests in the web browser;
      *  - instantiate the chromedriver
      *  - navigate to portfolio url
-     *  - log page title to console
+     *  - instantiate index page
      */
+    @BeforeClass
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
         driver = new ChromeDriver();
         driver.get(PORTFOLIO_URL);
-        System.out.println(format("Arrived at webpage: \"%s\"", driver.getTitle()));
+        indexPage = new IndexPage(driver);
     }
 
     /**
@@ -28,15 +33,9 @@ public class BaseTests {
      * - close any open windows
      * - quit session
      */
+    @AfterClass
     public void tearDown() {
         driver.close();
         driver.quit();
     }
-
-    public static void main(String args[]){
-        BaseTests test = new BaseTests();
-        test.setUp();
-        test.tearDown();
-    }
-
 }
