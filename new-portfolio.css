@@ -186,6 +186,18 @@ main {
     font-size: 1.75em;
 }
 
+/* || Action Plan Page */
+main {
+  font-family: Calibri, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 3fr 3fr;
+  grid-template-areas:
+    "assets1 everyday "
+    "assets2 worse"
+    "assets3 attack";
+}
+
 /* -- Mobile */
 @media only screen and (max-width: 500px) and (min-width: 320px) {
   main {
