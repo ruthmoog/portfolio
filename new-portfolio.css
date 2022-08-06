@@ -18,7 +18,7 @@ nav {
   height: 11px;
 }
 
-nav a, footer a{
+nav a, footer a, .nav a{
   font-family: Calibri, sans-serif;
   font-size: 13px;
   letter-spacing: 1px;
@@ -30,7 +30,7 @@ nav a, footer a{
   color: #000000;
 }
 
-nav a:hover {
+nav a:hover, .nav a:hover{
   border-bottom: 4px solid #04e3f3;
 }
 
@@ -149,7 +149,7 @@ p a:hover, a:focus {
 main {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: 1fr auto;
   grid-template-areas: 
     "portrait intro"
     "complementary complementary";
@@ -190,7 +190,7 @@ main {
 .plan {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto ;
   grid-template-areas:
   "everyday worse attack"
   "assets1 assets2 assets3";
@@ -216,6 +216,37 @@ main {
 .assets3 {grid-area: assets3};
 
 
+/* || Features Page */
+
+.makers {grid-area: makers};
+.meet {grid-area: meet};
+.codebar {grid-area: codebar};
+.stories {grid-area: stories};
+.exercism {grid-area: exercism};
+.testimonials {grid-area: testimonials};
+
+.features {
+  display: grid;
+  align-items: space-evenly;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  "makers meet"
+  "codebar stories"
+  "exercism testimonials";
+}
+
+.meet h2 {
+  margin: 0 20%;
+}
+
+.meet, .stories, .testimonials {
+    margin: 0 0 5% 0;
+}
+
+.makers, .codebar, .exercism {
+    padding: 20px 90px;
+    }
 
 
 /* -- Mobile */
