@@ -31,7 +31,7 @@ $ git push heroku master
 
 ![Lighthouse check](./images/lighthouse.png)
 
-This website is cleaner than 92% of websites tested by [Website Carbon Calculator](https://www.websitecarbon.com/website/ruthmoog-dev/), at 0.08g of CO2 per view.
+This website is cleaner than 97% of websites tested by [Website Carbon Calculator](https://www.websitecarbon.com/website/ruthmoog-dev/), at 0.03g of CO2 per view.
 
 ## References
 
