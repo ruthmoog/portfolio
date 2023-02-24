@@ -1,0 +1,10 @@
+# flyctl launch added from .gitignore
+**/.DS_Store
+**/project_hello_portfolio
+**/.idea
+
+# flyctl launch added from .idea/.gitignore
+# Default ignored files
+.idea/shelf
+.idea/workspace.xml
+fly.toml

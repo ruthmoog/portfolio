@@ -29,7 +29,7 @@ $ git push heroku master
  - [Heroku](https://www.heroku.com/) - a cloud platform service
  - [HTML5](https://w3.org/html/logo) - an internet document mark-up language
 
-![Lighthouse check](./images/lighthouse.png)
+![Lighthouse check](public/images/lighthouse.png)
 
 This website is cleaner than 97% of websites tested by [Website Carbon Calculator](https://www.websitecarbon.com/website/ruthmoog-dev/), at 0.03g of CO2 per view.
 
@@ -41,4 +41,4 @@ This website is cleaner than 97% of websites tested by [Website Carbon Calculato
 
 ## Wireframes
 
-![Example 'About Me' webpage](./images/wireframe-about.png)
+![Example 'About Me' webpage](public/images/wireframe-about.png)
