@@ -1,9 +1,25 @@
+:root {
+    --main-background-color: #8C4091; /* purple */
+    --section-background-color: #FFF9F5;
+    --accent-font-color: #FFF;
+    --secondary-background-color: #FDE1C9; /* ballet pink */
+    --main-font-color: #000;
+    --highlight-color: #F1F0F8;
+    --traffic-light-color-one: #40A535;
+    --traffic-light-color-two: #EF7E26;
+    --traffic-light-color-three: #B80442;
+}
+
 html {
   font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--main-background-color);
 }
 
 span {
-    font-family: cursive;
+    font-family: marker, "Bradley Hand", "Chalkboard SE", cursive;
+    background-color: var(--highlight-color);
+    padding: 3px;
+    font-size: 1.2rem;
 }
 
 #actions {
@@ -11,3 +27,42 @@ span {
     flex-flow: column nowrap;
     gap: 1rem;
 }
+
+.leaf {
+    flex-basis: 2rem;
+    border-width: 0.25em;
+    border-style: solid;
+    /*border-color: var(--traffic-light-color-one);*/
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: var(--section-background-color);
+}
+
+summary {
+    font-size: 1.5em;
+}
+
+#one summary, h3, h4  {
+    color: var(--traffic-light-color-one);
+}
+
+#one {
+    border-color: var(--traffic-light-color-one);
+}
+
+#two {
+    border-color: var(--traffic-light-color-two);
+}
+
+#two summary, h3, h4  {
+    color: var(--traffic-light-color-two);
+}
+
+#three {
+    border-color: var(--traffic-light-color-three);
+}
+
+#three summary, h3, h4  {
+    color: var(--traffic-light-color-three);
+}
+
