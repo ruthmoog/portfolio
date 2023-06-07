@@ -5,3 +5,9 @@ html {
 span {
     font-family: cursive;
 }
+
+#actions {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
