@@ -13,6 +13,29 @@
 html {
   font-family: Helvetica, Arial, sans-serif;
     background-color: var(--main-background-color);
+    padding: 1%;
+}
+
+h1 {
+    font-family: "Marker Felt", "Chalkduster", "Arial Black", sans-serif;
+    text-transform: uppercase;
+}
+
+#name {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+fieldset {
+    background-color: var(--highlight-color);
+    border: none;
+    border-top: 18px dotted var(--highlight-color);
+    color: var(--main-font-color);
+}
+
+#intro {
+    color: var(--accent-font-color);
 }
 
 span {
@@ -20,6 +43,8 @@ span {
     background-color: var(--highlight-color);
     padding: 3px;
     font-size: 1.2rem;
+    text-transform: initial;
+    color: var(--main-font-color);
 }
 
 #actions {
@@ -42,7 +67,7 @@ summary {
     font-size: 1.5em;
 }
 
-#one summary, h3, h4  {
+#one summary, #one h3, #one h4  {
     color: var(--traffic-light-color-one);
 }
 
@@ -54,7 +79,7 @@ summary {
     border-color: var(--traffic-light-color-two);
 }
 
-#two summary, h3, h4  {
+#two summary, #two  h3, #two  h4  {
     color: var(--traffic-light-color-two);
 }
 
@@ -62,7 +87,7 @@ summary {
     border-color: var(--traffic-light-color-three);
 }
 
-#three summary, h3, h4  {
+#three summary, #three h3, #three h4  {
     color: var(--traffic-light-color-three);
 }
 
