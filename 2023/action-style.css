@@ -26,6 +26,22 @@ h1 {
     font-size: 1rem;
 }
 
+#logo {
+    width: 20%;
+}
+
+figure {
+    width: max-content;
+}
+
+.form {
+    background-color: var(--highlight-color);
+}
+
+#title {
+    width: 75%;
+    margin: 0 12.5% 1rem 12.5%;
+}
 
 fieldset {
     background-color: var(--highlight-color);
@@ -38,7 +54,7 @@ fieldset {
     color: var(--accent-font-color);
 }
 
-span {
+span, figcaption {
     font-family: marker, "Bradley Hand", "Chalkboard SE", cursive;
     background-color: var(--highlight-color);
     padding: 3px;
