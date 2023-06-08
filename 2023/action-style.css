@@ -63,6 +63,10 @@ fieldset {
     color: var(--main-font-color);
 }
 
+.handwritten li {
+    margin: 0.25rem 0 0 2rem;
+}
+
 #actions {
     display: flex;
     flex-flow: column nowrap;
