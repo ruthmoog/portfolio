@@ -59,6 +59,7 @@ a:hover {
     margin: -20px 0 0 0;
     font-size: 1.25rem;
     padding: 1rem;
+    width: fit-content;
 }
 
 #logo {
