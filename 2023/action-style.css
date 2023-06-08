@@ -54,7 +54,7 @@ fieldset {
     color: var(--accent-font-color);
 }
 
-span, figcaption {
+.handwritten, figcaption {
     font-family: marker, "Bradley Hand", "Chalkboard SE", cursive;
     background-color: var(--highlight-color);
     padding: 3px;
@@ -102,7 +102,7 @@ summary {
     border-color: var(--traffic-light-color-three);
 }
 
-#three summary, #three h3, #three h4  {
+#three summary, #three h3, #three h4, .alert {
     color: var(--traffic-light-color-three);
 }
 
