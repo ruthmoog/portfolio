@@ -42,7 +42,7 @@ a:hover {
 }
 
 figure {
-    width: max-content;
+    margin: 0;
 }
 
 .form {
