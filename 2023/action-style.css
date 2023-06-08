@@ -14,6 +14,7 @@
 @media only screen and (max-width: 991px) {
     #actions {
         flex-flow: column nowrap;
+        flex-basis: 2rem;
     }
 }
 
@@ -22,11 +23,11 @@
     #actions {
         justify-content: space-evenly;
         flex-flow: row wrap;
+        align-items: flex-start;
     }
 
     .leaf {
-        width: 30%;
-        flex-grow: 3;
+        flex-basis: 27%;
     }
 
 }
@@ -103,7 +104,6 @@ fieldset {
 }
 
 .leaf {
-    flex-basis: 2rem;
     border-width: 0.25em;
     border-style: solid;
     border-radius: 10px;
