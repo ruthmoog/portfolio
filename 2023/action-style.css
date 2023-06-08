@@ -33,8 +33,9 @@ a:hover {
 }
 
 #name {
-    margin: 0;
-    font-size: 1rem;
+    margin: -20px 0 0 0;
+    font-size: 1.25rem;
+    padding: 1rem;
 }
 
 #logo {
@@ -45,10 +46,6 @@ a:hover {
 
 figure {
     margin: 0;
-}
-
-.form {
-    background-color: var(--highlight-color);
 }
 
 #title {
