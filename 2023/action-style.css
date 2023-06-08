@@ -39,6 +39,8 @@ a:hover {
 
 #logo {
     width: 20%;
+    max-width: 100px;
+    position: absolute;
 }
 
 figure {
@@ -51,7 +53,8 @@ figure {
 
 #title {
     width: 75%;
-    margin: 0 12.5% 1rem 12.5%;
+    margin: 5rem 12.5% 1rem 12.5%;
+    max-width: 300px;
 }
 
 fieldset {
