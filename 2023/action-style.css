@@ -10,6 +10,28 @@
     --traffic-light-color-three: #B80442;
 }
 
+/* For mobile devices, tablets etc */
+@media only screen and (max-width: 991px) {
+    #actions {
+        flex-flow: column nowrap;
+    }
+}
+
+/* For Larger screens */
+@media only screen and (min-width: 992px) {
+    #actions {
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+    }
+
+    .leaf {
+        width: 30%;
+        flex-grow: 3;
+    }
+
+}
+
+/* Default styling */
 html {
   font-family: Helvetica, Arial, sans-serif;
     background-color: var(--main-background-color);
@@ -77,7 +99,6 @@ fieldset {
 
 #actions {
     display: flex;
-    flex-flow: column nowrap;
     gap: 1rem;
 }
 
