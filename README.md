@@ -2,6 +2,8 @@
 
 Welcome to the project info for my personal portfolio website!
 
+![ruthmoog.dev status](https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=ruthmoog.dev&style=for-the-badge&up_color=blueviolet&up_message=online&url=https%3A%2F%2Fruthmoog.dev)
+
 ## Using the site
 
 Direct the browser to [ruthmoog.dev](https://www.ruthmoog.dev)
