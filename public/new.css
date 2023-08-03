@@ -1,21 +1,45 @@
+
+
 /* For mobile devices, tablets etc */
 @media only screen and (max-width: 991px) {
     .folio img, .bites blockquote {
         flex-basis: 2rem;
-        border: 1px tomato solid;
-        padding: 1rem;
         flex-grow: 0;
-
-
     }
 
-    .bites blockquote {
-            margin: 1rem;
-            min-width: 20rem;
-            min-height: 20rem;
-            background-color: yellow;
-            }
 }
+
+.folio img {
+    min-width: 20rem;
+    padding: 0.5rem 0;
+}
+
+.bites blockquote {
+    margin: 1rem;
+    min-width: 20rem;
+    min-height: 20rem;
+    background-color: peachpuff;
+    padding: 1rem;
+}
+
+.bites p {
+    font-size: 2.25rem;
+}
+
+.bites {
+    background: repeating-linear-gradient(
+            45deg,
+            white,
+            white 1rem,
+            lightsalmon 0,
+            lightcoral 2rem
+    );
+}
+
+.community {
+    color: coral;
+}
+
 
 .bites, .folio {
     display: flex;
@@ -23,3 +47,8 @@
     justify-content: center;
     align-content: flex-start;
     }
+
+
+.footer {
+    background-color: #114b5f;
+}
