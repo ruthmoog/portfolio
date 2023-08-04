@@ -17,14 +17,77 @@ body {
     margin: 0;
 }
 
-.folio img, .bites blockquote {
+.project a {
+    text-decoration: none;
+
+}
+
+#action-plan {
+    background-color: #0CAAA0;
+}
+#action-plan .lozenge{
+    color: var(--light-accent-color);
+    background-color: #8C4091;
+}
+
+#bee {
+    background-color: #F6BB07;
+}
+#bee .lozenge {
+    color: var(--light-accent-color);
+    background-color: #28200A;
+}
+
+#bbac {
+    background-color: #FE6A6A;
+}
+#bbac .lozenge {
+    color: var(--light-accent-color);
+    background-color: #3F385E;
+}
+
+#checkboxer {
+    background-color: #08C710;
+}
+#checkboxer .lozenge {
+    color: var(--light-accent-color);
+    background-color: #FF01FF;
+}
+
+#pollinate {
+    background-color: #E67CBA;
+}
+#pollinate .lozenge {
+    color: #070707;
+    background-color: #C7EFFF;
+}
+
+#sfb {
+    background-color: #817FE8;
+}
+#sfb .lozenge {
+    color: var(--light-accent-color);
+    background-color: #006BC2;
+}
+
+
+
+.folio #project, .bites blockquote {
     flex-basis: 2rem;
     flex-grow: 0;
 }
 
-.folio img {
+.folio .links {
+    display: flex;
+}
+
+.folio .project {
     min-width: 20rem;
-    padding: 0.5rem 0;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
 }
 
 .bites blockquote {
@@ -71,12 +134,12 @@ body {
     opacity: revert;
     padding: 1rem;
     width: fit-content;
-    min-width: 10rem;
+    min-width: 7rem;
     border-radius: 25px;
     font-family: sans-serif;
     font-size: 1.15rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 .lozenge:active {
