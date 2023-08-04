@@ -21,9 +21,30 @@ p {
     margin: 0;
 }
 
-.project a {
+a {
     text-decoration: none;
+}
 
+.welcome {
+    background-color: white;
+    color: darkcyan;
+    padding: 3rem;
+    letter-spacing: 0.15rem;
+}
+
+.welcome p, h4 {
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+h4 {
+    padding: 0;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
 }
 
 #action-plan {
@@ -119,13 +140,13 @@ p {
     letter-spacing: 0.1rem;
 }
 
-.values a {
+.values a, .welcome a {
     color: darkcyan;
     text-decoration: none;
     border-bottom: dotted peachpuff 0.17rem;
 }
 
-.values a:active, .values a:hover {
+.values a:active, .values a:hover, .welcome a:active, .welcome a:hover {
     text-decoration: none;
     border-bottom: solid coral 0.17rem;
 }
