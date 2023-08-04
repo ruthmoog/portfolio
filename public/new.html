@@ -58,62 +58,86 @@
 
     <section class="projects">
 <!--        showcase some nice projects, link to GitHubs and/or demo sites?? tbd -->
-        <h2>My Projects.</h2>
-        
+        <details>
+            <summary>
+                <h2>My Projects.</h2>
+                <div class="lozenge">Discover</div>
+            </summary>
+
         <section class="folio">
             <img src="./images/projects/asthma-plan.webp">
+<!--            <a href=""><div class="lozenge">View repo</div></a>-->
+            <a href="https://ruthmoog.dev/action"><div class="lozenge">Visit site</div></a>
+
             <img src="./images/projects/bee.webp">
+            <a href=""><div class="lozenge">View repo</div></a>
+            <a href="https://ruthmoog.dev/action"><div class="lozenge">Visit site</div></a>
+
             <img src="./images/projects/bookByACover.webp">
+            <a href=""><div class="lozenge">View repo</div></a>
+            <a href="https://ruthmoog.dev/action"><div class="lozenge">Visit site</div></a>
+
             <img src="./images/projects/checkboxer.webp">
+            <a href=""><div class="lozenge">View repo</div></a>
+            <a href="https://ruthmoog.dev/action"><div class="lozenge">Visit site</div></a>
+
             <img src="./images/projects/pollinate.webp">
+            <a href=""><div class="lozenge">View repo</div></a>
+            <a href="https://ruthmoog.dev/action"><div class="lozenge">Visit site</div></a>
+
             <img src="./images/projects/sfb.webp">
+            <a href=""><div class="lozenge">View repo</div></a>
+            <a href="https://ruthmoog.dev/action"><div class="lozenge">Visit site</div></a>
 
         </section>
+        </details>
     </section>
 
 <!--    TODO section for blog, pull in the latest blog post, and link to dev.to -->
 
     <section class="community">
-        <h2>My community.</h2>
-<!--        links to articles about me, and quotes about how bloody great I am. also links to any talks I deliver... -->
+        <!--        links to articles about me, and quotes about how bloody great I am. also links to any talks I deliver... -->
+
+        <details>
+            <summary>
+                <h2>My community.</h2>
+                <div class="lozenge">Discover</div>
+            </summary>
 
         <section class="bites">
-            <blockquote cite="https://exercism.org/profiles/ruthmoog/testimonials">
+            <blockquote class="testimonial" cite="https://exercism.org/profiles/ruthmoog/testimonials">
                 <p>“Ruth has a solid knowledge of Java and its API and helped me solve the problem in a better way.”</p>
                 <footer>—FabioBentoLuiz, <cite>Exercism student</cite></footer>
             </blockquote>
 
-            <blockquote cite="https://makers.tech/available-candidates-ruth-baker/">
+            <blockquote class="feature" cite="https://makers.tech/available-candidates-ruth-baker/">
                 <p>“I enjoy breaking problems down, getting to the bottom of an issue and figuring out a way to solve it.”</p>                <footer>—<cite>Meet Ruth Baker, Makers Academy 2021</cite></footer>
             </blockquote>
 
-            <blockquote cite="https://exercism.org/profiles/ruthmoog/testimonials">
+            <blockquote class="testimonial" cite="https://exercism.org/profiles/ruthmoog/testimonials">
                 <p>“Ruthmoog's mentoring sure helped me improve my code quality. She provided a great insight to the solution.”</p>                <footer>—Yash-devasp, <cite>Exercism student</cite></footer>
             </blockquote>
 
-            <blockquote cite="https://medium.com/codebar-stories/ruth-baker-makers-fellow-4bf301f3fbe3">
+            <blockquote class="feature" cite="https://medium.com/codebar-stories/ruth-baker-makers-fellow-4bf301f3fbe3">
                 <p>“Part of the ethos of being a developer is sharing, and coaching is part of that.”</p>
                 <footer>—<cite>Codebar Stories</cite></footer>
             </blockquote>
         </section>
-
+</details>
     </section>
 
 </main>
 
 <footer class="footer">
-    <h1>Code by Ruth Baker</h1>
-
     <section>
-        <h2>RUTHMOOG.DEV</h2>
-            <p>© 2023 Ruth Baker</p>
-            <p>This website is cleaner than 97% of websites tested by <a href="https://www.websitecarbon.com/website/ruthmoog-dev/">
-            Website Carbon Calculator</a>, at 0.03g of CO2 per view.</p>
-            <p><a href="https://github.com/ruthmoog/portfolio">VIEW REPO</a></p>
+        <h3>ruthmoog.dev</h3>
+        <p>© 2023 Ruth Baker</p>
+        <div id="wcb" class="carbonbadge wcb-d"></div>
+        <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
     </section>
 
     <section>
-        <h2>GET IN TOUCH</h2>
+        <h3>Get in touch</h3>
         <p>
             <a href="https://github.com/ruthmoog">GITHUB</a>
             <a href="https://twitter.com/ruthmoog">TWITTER</a>
@@ -123,5 +147,6 @@
     </section>
 
 </footer>
+
 </body>
 </html>
