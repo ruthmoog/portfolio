@@ -70,8 +70,6 @@ body {
     background-color: #006BC2;
 }
 
-
-
 .folio #project, .bites blockquote {
     flex-basis: 2rem;
     flex-grow: 0;
@@ -84,6 +82,11 @@ body {
 .folio .project {
     min-width: 20rem;
     padding: 1rem;
+}
+
+.projects summary {
+    color: var(--light-main-color);
+    background-color: deeppink;
 }
 
 img {
@@ -121,9 +124,12 @@ img {
     );
 }
 
-.community summary {
+summary {
     list-style: none;
     padding: 1rem;
+}
+
+.community summary {
     background-color: #FDE1C9;
     color: var(--dark-main-color);
 }
