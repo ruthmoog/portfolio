@@ -1,12 +1,23 @@
-
+:root {
+    --light-main-color: peachpuff;
+    --dark-main-color: coral;
+    --light-accent-color: white;
+    --mid-accent-color: lightcoral;
+    --dark-accent-color: lightsalmon;
+}
 
 /* For mobile devices, tablets etc */
 @media only screen and (max-width: 991px) {
-    .folio img, .bites blockquote {
-        flex-basis: 2rem;
-        flex-grow: 0;
-    }
+}
 
+body {
+    background-color: var(--light-main-color);
+    margin: 0;
+}
+
+.folio img, .bites blockquote {
+    flex-basis: 2rem;
+    flex-grow: 0;
 }
 
 .folio img {
@@ -18,7 +29,7 @@
     margin: 1rem;
     min-width: 20rem;
     min-height: 20rem;
-    background-color: peachpuff;
+    background-color: var(--light-main-color);
     padding: 1rem;
 }
 
@@ -29,15 +40,15 @@
 .bites {
     background: repeating-linear-gradient(
             45deg,
-            white,
-            white 1rem,
-            lightsalmon 0,
-            lightcoral 2rem
+            var(--light-accent-color),
+            var(--light-accent-color) 1rem,
+            var(--dark-accent-color) 0,
+            var(--mid-accent-color) 2rem
     );
 }
 
 .community {
-    color: coral;
+    color: var(--dark-main-color);
 }
 
 
