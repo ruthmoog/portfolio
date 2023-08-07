@@ -7,20 +7,25 @@
     --dark-accent-color: lightsalmon;
 }
 
+nav {
+    display: flex;
+    background-color: var(--dark-main-color);
+}
+
 nav a {
-    background-color: darkcyan;
+    background-color: var(--dark-main-color);
     padding: 1rem;
     margin: 1%;
     border-radius: 5px;
     font-size: 1rem;
     font-family: sans-serif;
     color: white;
-    line-height: 4rem;
+    align-self: center;
 }
 
 nav a:active, nav a:hover {
-    background-color: deeppink;
-}
+    background-color: floralwhite;
+    color: darkcyan;}
 
 h2 {
     font-size: 3rem;
@@ -40,14 +45,14 @@ a {
     text-decoration: none;
 }
 
-.welcome {
+#welcome {
     background-color: white;
     color: darkcyan;
     padding: 3rem;
     letter-spacing: 0.15rem;
 }
 
-.welcome p, h4 {
+#welcome p, h4 {
     padding: 1rem;
     line-height: 2rem;
 }
@@ -124,7 +129,7 @@ h1 {
     padding: 1rem;
 }
 
-.projects summary {
+#projects summary {
     color: var(--light-main-color);
     background-color: deeppink;
 }
@@ -133,19 +138,19 @@ h1 {
     display: flex;
 }
 
-.values summary {
+#values summary {
     color: orangered;
     background-color: #FDE1C9;
 }
 
-.values  {
+#values  {
     background-color: #FDE1C9;
     background-size: 0.5rem 0.5rem;
     background-image: linear-gradient(to right, lightsalmon 1px, transparent 0), linear-gradient(to bottom, lightcoral 1px, transparent 0);
     border: solid 1px peachpuff;
 }
 
-.values p {
+#values p {
     padding: 2rem;
     background-color: var(--light-accent-color);
     color: orangered;
@@ -155,13 +160,18 @@ h1 {
     letter-spacing: 0.1rem;
 }
 
-.values a, .welcome a {
+#values img {
+    margin: 1rem;
+    width: 92%;
+}
+
+#values a, .welcome a {
     color: darkcyan;
     text-decoration: none;
     border-bottom: dotted peachpuff 0.17rem;
 }
 
-.values a:active, .values a:hover, .welcome a:active, .welcome a:hover {
+#values a:active, #values a:hover, #welcome a:active, #welcome a:hover {
     text-decoration: none;
     border-bottom: solid coral 0.17rem;
 }
@@ -206,7 +216,7 @@ summary {
     padding: 1rem;
 }
 
-.community summary {
+#community summary {
     background-color: #FDE1C9;
     color: var(--dark-main-color);
 }
