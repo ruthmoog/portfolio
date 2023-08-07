@@ -14,6 +14,8 @@
     --contrast-color: darkcyan;
 }
 
+
+
 /* Universal Styles */
 /* ===================================================== */
 
@@ -152,19 +154,25 @@ nav a:active, nav a:hover {
     border: solid 1px var(--light-tone-4);
 }
 
-#values p {
-    padding: 2rem;
+#valueContent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    align-content: center;
+}
+
+#values p , #values img {
+    padding: 1rem;
     background-color: var(--light-tone-1);
     color: var(--warm-tone-5);
     margin: 1rem;
     font-size: 1.15rem;
     font-family: sans-serif;
     letter-spacing: 0.1rem;
-}
-
-#values img {
-    margin: 1rem;
-    width: 92%;
+    min-width: 20rem;
+    min-height: 20rem;
+    flex-basis: 2rem;
+    flex-grow: 0;
 }
 
 
@@ -324,4 +332,11 @@ summary {
 
 .footer li {
     margin-left: 1rem;
+}
+
+@media only screen and (min-width: 800px) {
+
+    #welcome p {
+        margin-left: 17rem;
+    }
 }
