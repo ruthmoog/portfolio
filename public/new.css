@@ -345,4 +345,20 @@ summary {
     #welcome p {
         margin-left: 17rem;
     }
+
+    footer {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: auto auto;
+    }
+
+    .footer1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .footer2 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
 }
