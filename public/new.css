@@ -1,31 +1,56 @@
 :root {
-    --light-main-color: peachpuff;
-    --mid-main-color: coral;
-    --dark-main-color: #fe6f5e; /* bittersweet */
-    --light-accent-color: white;
-    --mid-accent-color: lightcoral;
-    --dark-accent-color: lightsalmon;
+    --light-tone-1: white;
+    --light-tone-2: floralwhite;
+    --light-tone-3: #FDE1C9;
+    --light-tone-4: peachpuff;
+
+    --warm-tone-1: lightsalmon;
+    --warm-tone-2: lightcoral;
+    --warm-tone-3: #FE6F5E; /* bittersweet */
+    --warm-tone-4: coral;
+    --warm-tone-5: orangered;
+    --warm-tone-6: deeppink;
+
+    --contrast-color: darkcyan;
 }
+
+
 
 nav {
     display: flex;
-    background-color: var(--dark-main-color);
+    background-color: var(--warm-tone-3);
+}
+
+.footer ul {
+    background: var(--light-tone-4);
+    padding: 1rem;
+    color: var(--warm-tone-3);
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 60px;
+    line-height: 2rem;
+    letter-spacing: 0.15rem;
+}
+
+.footer li {
+    margin-left: 1rem;
 }
 
 nav a {
-    background-color: var(--dark-main-color);
+    background-color: var(--warm-tone-3);
     padding: 1rem;
     margin: 1%;
     border-radius: 5px;
     font-size: 1rem;
     font-family: sans-serif;
-    color: white;
+    color: var(--light-tone-1);
     align-self: center;
 }
 
 nav a:active, nav a:hover {
-    background-color: floralwhite;
-    color: darkcyan;}
+    background-color: var(--light-tone-2);
+    color: var(--contrast-color);
+}
 
 h2 {
     font-size: 3rem;
@@ -33,7 +58,7 @@ h2 {
 }
 
 body {
-    background-color: var(--light-main-color);
+    background-color: var(--light-tone-4);
     margin: 0;
 }
 
@@ -46,8 +71,8 @@ a {
 }
 
 #welcome {
-    background-color: white;
-    color: darkcyan;
+    background-color: var(--light-tone-1);
+    color: var(--contrast-color);
     padding: 3rem;
     letter-spacing: 0.15rem;
 }
@@ -71,7 +96,7 @@ h1 {
     background-color: #0CAAA0;
 }
 #action-plan .lozenge{
-    color: var(--light-accent-color);
+    color: var(--light-tone-1);
     background-color: #8C4091;
 }
 
@@ -79,7 +104,7 @@ h1 {
     background-color: #F6BB07;
 }
 #bee .lozenge {
-    color: var(--light-accent-color);
+    color: var(--light-tone-1);
     background-color: #28200A;
 }
 
@@ -87,7 +112,7 @@ h1 {
     background-color: #FE6A6A;
 }
 #bbac .lozenge {
-    color: var(--light-accent-color);
+    color: var(--light-tone-1);
     background-color: #3F385E;
 }
 
@@ -95,7 +120,7 @@ h1 {
     background-color: #08C710;
 }
 #checkboxer .lozenge {
-    color: var(--light-accent-color);
+    color: var(--light-tone-1);
     background-color: #FF01FF;
 }
 
@@ -111,7 +136,7 @@ h1 {
     background-color: #817FE8;
 }
 #sfb .lozenge {
-    color: var(--light-accent-color);
+    color: var(--light-tone-1);
     background-color: #006BC2;
 }
 
@@ -130,8 +155,8 @@ h1 {
 }
 
 #projects summary {
-    color: var(--light-main-color);
-    background-color: deeppink;
+    color: var(--light-tone-4);
+    background-color: var(--warm-tone-6);
 }
 
 #valueContent {
@@ -139,21 +164,21 @@ h1 {
 }
 
 #values summary {
-    color: orangered;
-    background-color: #FDE1C9;
+    color: var(--warm-tone-5);
+    background-color: var(--light-tone-3);
 }
 
 #values  {
-    background-color: #FDE1C9;
+    background-color: var(--light-tone-3);
     background-size: 0.5rem 0.5rem;
-    background-image: linear-gradient(to right, lightsalmon 1px, transparent 0), linear-gradient(to bottom, lightcoral 1px, transparent 0);
-    border: solid 1px peachpuff;
+    background-image: linear-gradient(to right, var(--warm-tone-1) 1px, transparent 0), linear-gradient(to bottom, var(--warm-tone-2) 1px, transparent 0);
+    border: solid 1px var(--light-tone-4);
 }
 
 #values p {
     padding: 2rem;
-    background-color: var(--light-accent-color);
-    color: orangered;
+    background-color: var(--light-tone-1);
+    color: var(--warm-tone-5);
     margin: 1rem;
     font-size: 1.15rem;
     font-family: sans-serif;
@@ -165,15 +190,25 @@ h1 {
     width: 92%;
 }
 
-#values a, .welcome a {
+#values a, #welcome a, .footer a {
     color: darkcyan;
     text-decoration: none;
-    border-bottom: dotted peachpuff 0.17rem;
+    border-bottom: dotted var(--light-tone-4) 0.17rem;
 }
 
-#values a:active, #values a:hover, #welcome a:active, #welcome a:hover {
+.footer a {
+    border-bottom: dotted var(--light-tone-2) 0.17rem;
+}
+
+#values a:active, #values a:hover, #welcome a:active, #welcome a:hover, .footer a:active, .footer a:hover {
     text-decoration: none;
-    border-bottom: solid coral 0.17rem;
+    border-bottom: solid var(--warm-tone-4) 0.17rem;
+}
+
+.footer a:active, .footer a:hover {
+    background-color: deeppink;
+    border-bottom: solid var(--warm-tone-6) 0.17rem;
+    color: var(--light-tone-2);
 }
 
 img {
@@ -188,12 +223,12 @@ img {
 }
 
 .testimonial {
-    background-color: var(--light-main-color);
+    background-color: var(--light-tone-4);
 }
 
 .feature {
-    background-color: var(--dark-main-color);
-    color: var(--light-main-color);
+    background-color: var(--warm-tone-3);
+    color: var(--light-tone-4);
 }
 
 .bites p {
@@ -201,13 +236,13 @@ img {
 }
 
 .bites {
-    color: var(--dark-main-color);
+    color: var(--warm-tone-3);
     background: repeating-linear-gradient(
             45deg,
-            var(--light-accent-color),
-            var(--light-accent-color) 1rem,
-            var(--dark-accent-color) 0,
-            var(--mid-accent-color) 2rem
+            var(--light-tone-1),
+            var(--light-tone-1) 1rem,
+            var(--warm-tone-1) 0,
+            var(--warm-tone-2) 2rem
     );
 }
 
@@ -217,13 +252,13 @@ summary {
 }
 
 #community summary {
-    background-color: #FDE1C9;
-    color: var(--dark-main-color);
+    background-color: var(--light-tone-3);
+    color: var(--warm-tone-3);
 }
 
 .lozenge {
-    background-color: var(--dark-main-color);
-    color: var(--light-main-color);
+    background-color: var(--warm-tone-3);
+    color: var(--light-tone-4);
     opacity: revert;
     padding: 1rem;
     width: fit-content;
@@ -236,9 +271,9 @@ summary {
 }
 
 .lozenge:active {
-    color: var(--dark-main-color);
-    background-color: var(--light-main-color);
-    border: solid 1px var(--dark-main-color);
+    color: var(--warm-tone-3);
+    background-color: var(--light-tone-4);
+    border: solid 1px var(--warm-tone-3);
 }
 
 
@@ -254,8 +289,8 @@ summary {
 /* ===================================================== */
 
 .footer {
-    background-color: var(--dark-main-color);
-    color: var(--light-main-color);
+    background-color: var(--warm-tone-3);
+    color: var(--light-tone-4);
     margin: 0;
     padding: 2em;
     font-size: 1em;
