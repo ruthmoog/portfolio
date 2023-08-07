@@ -7,6 +7,21 @@
     --dark-accent-color: lightsalmon;
 }
 
+nav a {
+    background-color: darkcyan;
+    padding: 1rem;
+    margin: 1%;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: white;
+    line-height: 4rem;
+}
+
+nav a:active, nav a:hover {
+    background-color: deeppink;
+}
+
 h2 {
     font-size: 3rem;
     opacity: 100%;
