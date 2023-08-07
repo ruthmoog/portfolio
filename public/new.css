@@ -14,26 +14,48 @@
     --contrast-color: darkcyan;
 }
 
+/* Universal Styles */
+/* ===================================================== */
 
+body {
+    background-color: var(--light-tone-4);
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    opacity: 100%;
+}
+
+h4 {
+    padding: 0;
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Nav style */
+/* ===================================================== */
 
 nav {
     display: flex;
     background-color: var(--warm-tone-3);
-}
-
-.footer ul {
-    background: var(--light-tone-4);
-    padding: 1rem;
-    color: var(--warm-tone-3);
-    text-decoration: none;
-    list-style-type: none;
-    border-radius: 60px;
-    line-height: 2rem;
-    letter-spacing: 0.15rem;
-}
-
-.footer li {
-    margin-left: 1rem;
 }
 
 nav a {
@@ -52,23 +74,52 @@ nav a:active, nav a:hover {
     color: var(--contrast-color);
 }
 
-h2 {
-    font-size: 3rem;
-    opacity: 100%;
-}
 
-body {
-    background-color: var(--light-tone-4);
-    margin: 0;
-}
 
-p {
-    margin: 0;
-}
 
-a {
+/* Section Styles */
+/* ===================================================== */
+
+#values a, #welcome a, .footer a {
+    color: darkcyan;
     text-decoration: none;
+    border-bottom: dotted var(--light-tone-4) 0.17rem;
 }
+
+.lozenge {
+    background-color: var(--warm-tone-3);
+    color: var(--light-tone-4);
+    opacity: revert;
+    padding: 1rem;
+    width: fit-content;
+    min-width: 7rem;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-size: 1.15rem;
+    text-align: center;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.lozenge:active {
+    color: var(--warm-tone-3);
+    background-color: var(--light-tone-4);
+    border: solid 1px var(--warm-tone-3);
+}
+
+#values a:active, #values a:hover, #welcome a:active, #welcome a:hover, .footer a:active, .footer a:hover {
+    text-decoration: none;
+    border-bottom: solid var(--warm-tone-4) 0.17rem;
+}
+
+.bites, .folio {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+/* Welcome */
+/* ----------------------------- */
 
 #welcome {
     background-color: var(--light-tone-1);
@@ -82,15 +133,44 @@ a {
     line-height: 2rem;
 }
 
-h4 {
-    padding: 0;
-    margin-top: 0;
+/* Values */
+/* ----------------------------- */
+
+#valueContent {
+    display: flex;
 }
 
-h1 {
-    font-size: 3rem;
-    margin-bottom: 0;
+#values summary {
+    color: var(--warm-tone-5);
+    background-color: var(--light-tone-3);
 }
+
+#values  {
+    background-color: var(--light-tone-3);
+    background-size: 0.5rem 0.5rem;
+    background-image: linear-gradient(to right, var(--warm-tone-1) 1px, transparent 0), linear-gradient(to bottom, var(--warm-tone-2) 1px, transparent 0);
+    border: solid 1px var(--light-tone-4);
+}
+
+#values p {
+    padding: 2rem;
+    background-color: var(--light-tone-1);
+    color: var(--warm-tone-5);
+    margin: 1rem;
+    font-size: 1.15rem;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+#values img {
+    margin: 1rem;
+    width: 92%;
+}
+
+
+
+/* Projects */
+/* ----------------------------- */
 
 #action-plan {
     background-color: #0CAAA0;
@@ -159,61 +239,11 @@ h1 {
     background-color: var(--warm-tone-6);
 }
 
-#valueContent {
-    display: flex;
-}
 
-#values summary {
-    color: var(--warm-tone-5);
-    background-color: var(--light-tone-3);
-}
 
-#values  {
-    background-color: var(--light-tone-3);
-    background-size: 0.5rem 0.5rem;
-    background-image: linear-gradient(to right, var(--warm-tone-1) 1px, transparent 0), linear-gradient(to bottom, var(--warm-tone-2) 1px, transparent 0);
-    border: solid 1px var(--light-tone-4);
-}
 
-#values p {
-    padding: 2rem;
-    background-color: var(--light-tone-1);
-    color: var(--warm-tone-5);
-    margin: 1rem;
-    font-size: 1.15rem;
-    font-family: sans-serif;
-    letter-spacing: 0.1rem;
-}
-
-#values img {
-    margin: 1rem;
-    width: 92%;
-}
-
-#values a, #welcome a, .footer a {
-    color: darkcyan;
-    text-decoration: none;
-    border-bottom: dotted var(--light-tone-4) 0.17rem;
-}
-
-.footer a {
-    border-bottom: dotted var(--light-tone-2) 0.17rem;
-}
-
-#values a:active, #values a:hover, #welcome a:active, #welcome a:hover, .footer a:active, .footer a:hover {
-    text-decoration: none;
-    border-bottom: solid var(--warm-tone-4) 0.17rem;
-}
-
-.footer a:active, .footer a:hover {
-    background-color: deeppink;
-    border-bottom: solid var(--warm-tone-6) 0.17rem;
-    color: var(--light-tone-2);
-}
-
-img {
-    width: 100%;
-}
+/* Community */
+/* ----------------------------- */
 
 .bites blockquote {
     margin: 1rem;
@@ -256,37 +286,21 @@ summary {
     color: var(--warm-tone-3);
 }
 
-.lozenge {
-    background-color: var(--warm-tone-3);
-    color: var(--light-tone-4);
-    opacity: revert;
-    padding: 1rem;
-    width: fit-content;
-    min-width: 7rem;
-    border-radius: 25px;
-    font-family: sans-serif;
-    font-size: 1.15rem;
-    text-align: center;
-    margin: 1rem 1rem 1rem 1rem;
-}
 
-.lozenge:active {
-    color: var(--warm-tone-3);
-    background-color: var(--light-tone-4);
-    border: solid 1px var(--warm-tone-3);
-}
-
-
-.bites, .folio {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: flex-start;
-    }
 
 
 /* Footer Style */
 /* ===================================================== */
+
+.footer a {
+    border-bottom: dotted var(--light-tone-2) 0.17rem;
+}
+
+.footer a:active, .footer a:hover {
+    background-color: deeppink;
+    border-bottom: solid var(--warm-tone-6) 0.17rem;
+    color: var(--light-tone-2);
+}
 
 .footer {
     background-color: var(--warm-tone-3);
@@ -295,4 +309,19 @@ summary {
     padding: 2em;
     font-size: 1em;
     font-family: sans-serif;
+}
+
+.footer ul {
+    background: var(--light-tone-4);
+    padding: 1rem;
+    color: var(--warm-tone-3);
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 60px;
+    line-height: 2rem;
+    letter-spacing: 0.15rem;
+}
+
+.footer li {
+    margin-left: 1rem;
 }
