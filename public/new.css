@@ -48,7 +48,10 @@ a {
 }
 
 img {
-    width: 100%;
+    width: 33%;
+    min-width: 20rem;
+    min-height: 20rem;
+    display: block;
 }
 
 
@@ -113,12 +116,7 @@ nav a:active, nav a:hover {
     border-bottom: solid var(--warm-tone-4) 0.17rem;
 }
 
-.bites, .folio {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: flex-start;
-}
+
 
 /* Welcome */
 /* ----------------------------- */
@@ -154,11 +152,10 @@ nav a:active, nav a:hover {
     border: solid 1px var(--light-tone-4);
 }
 
-#valueContent {
+#valueContent, .folio, .bites {
     display: flex;
     flex-flow: row wrap;
-    justify-content: stretch;
-    align-content: center;
+    justify-content: center;
 }
 
 #values p , #values img {
@@ -240,6 +237,15 @@ nav a:active, nav a:hover {
 .folio .project {
     min-width: 20rem;
     padding: 1rem;
+}
+
+.links {
+    width: 1rem;
+}
+
+.project {
+    width: min-content;
+    flex-grow: 2;
 }
 
 #projects summary {
