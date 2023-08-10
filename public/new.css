@@ -235,7 +235,8 @@ nav a:active, nav a:hover {
 }
 
 .folio .project {
-    min-width: 20rem;
+    min-width: 25rem;
+    max-width: 100%;
     padding: 1rem;
 }
 
