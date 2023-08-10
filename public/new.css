@@ -279,6 +279,21 @@ nav a:active, nav a:hover {
     color: var(--light-tone-4);
 }
 
+.feature a {
+    background-color: var(--warm-tone-3);
+    color: var(--light-tone-4);
+}
+
+.testimonial a {
+    background-color: var(--light-tone-4);
+    color: var(--warm-tone-5);
+}
+
+.testimonial a:active, .testimonial a:hover, .feature a:active, .feature a:hover {
+    border-bottom: var(--warm-tone-4) 1rem solid;
+    text-decoration: underline var(--light-tone-1);
+}
+
 .bites p {
     font-size: 2.25rem;
 }
