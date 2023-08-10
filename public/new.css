@@ -240,12 +240,15 @@ nav a:active, nav a:hover {
 }
 
 .links {
-    width: 1rem;
+    justify-content: center;
 }
 
 .project {
-    width: min-content;
+    width: 1rem;
     flex-grow: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #projects summary {
