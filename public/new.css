@@ -12,6 +12,8 @@
     --warm-tone-6: deeppink;
 
     --contrast-color: darkcyan;
+
+    scroll-behavior: smooth;
 }
 
 
@@ -387,7 +389,18 @@ footer.citation {
     margin-left: 1rem;
 }
 
+/* carbon badge */
 
+
+#wcb {
+    text-align: left !important;
+}
+
+.foot img {
+    max-width: 5rem;
+    min-width: 0;
+    min-height: 0;
+}
 
 @media only screen and (min-width: 800px) {
 
@@ -398,17 +411,11 @@ footer.citation {
     footer.foot {
         display: grid;
         gap: 1rem;
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
     }
 
-    .footer1 {
-        grid-column-start: 1;
-        grid-column-end: 1;
-    }
-
-    .footer2 {
-        grid-column-start: 2;
-        grid-column-end: 2;
+    #footer1 {
+        margin-left: 5rem;
     }
 
     footer .citation {
@@ -445,3 +452,4 @@ footer.citation {
         margin: 0 20%;
     }
 }
+
