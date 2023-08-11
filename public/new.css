@@ -16,6 +16,36 @@
     scroll-behavior: smooth;
 }
 
+/* Responsive visual / a11y elements */
+/* --------------------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --light-tone-1: #001F37;
+        --light-tone-2: #005493;
+        --light-tone-3: #02365E;
+        --light-tone-4: #02146F;
+
+        --warm-tone-1: #009193;
+        --warm-tone-2: #007475;
+        --warm-tone-3: #009196;
+        --warm-tone-4: #418D8E;
+        --warm-tone-5: #388670;
+        --warm-tone-6: darkcyan;
+
+        --contrast-color: lightgoldenrodyellow;
+    }
+
+    .welcome img, .project {
+        filter:                  brightness(.7) contrast(1.2);
+    }
+
+    #values a, #welcome a, .foot a {
+        color: var(--contrast-color);
+        text-decoration: none;
+        border-bottom: dotted var(--light-tone-4) 0.17rem;
+    }
+}
 
 
 /* Universal Styles */
@@ -101,7 +131,7 @@ nav a:active, nav a:hover {
 /* ===================================================== */
 
 #values a, #welcome a, .foot a {
-    color: darkcyan;
+    color: var(--contrast-color);
     text-decoration: none;
     border-bottom: dotted var(--light-tone-4) 0.17rem;
 }
