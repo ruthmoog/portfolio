@@ -56,6 +56,10 @@ h4 {
     margin-top: 0;
 }
 
+h6 {
+    font-weight: normal;
+}
+
 p {
     margin: 0;
 }
@@ -108,6 +112,11 @@ nav a:active, nav a:hover {
     border-bottom: dotted var(--light-tone-4) 0.17rem;
 }
 
+#values a:active, #values a:hover, #welcome a:active, #welcome a:hover, .footer a:active, .footer a:hover {
+    text-decoration: none;
+    border-bottom: solid var(--warm-tone-4) 0.17rem;
+}
+
 .lozenge {
     background-color: var(--warm-tone-3);
     color: var(--light-tone-4);
@@ -126,11 +135,6 @@ nav a:active, nav a:hover {
     color: var(--warm-tone-3);
     background-color: var(--light-tone-4);
     border: solid 1px var(--warm-tone-3);
-}
-
-#values a:active, #values a:hover, #welcome a:active, #welcome a:hover, .footer a:active, .footer a:hover {
-    text-decoration: none;
-    border-bottom: solid var(--warm-tone-4) 0.17rem;
 }
 
 
