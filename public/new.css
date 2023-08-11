@@ -411,9 +411,9 @@ footer.citation {
     }
 }
 
-@media only screen and (min-width: 1555px) {
+@media only screen and (min-width: 1150px) {
     details, header, #welcome, footer.foot {
-        margin: 0 20%;
+        margin: 0 10%;
     }
 
     main {
@@ -431,5 +431,11 @@ footer.citation {
         color: var(--warm-tone-3);
         background: none;
         background-color: var(--light-tone-2);
+    }
+}
+
+@media only screen and (min-width: 1555px) {
+    details, header, #welcome, footer.foot {
+        margin: 0 20%;
     }
 }
