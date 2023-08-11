@@ -15,23 +15,6 @@
 }
 
 
-@media only screen and (min-width: 1555px) {
-    details, header, #welcome, footer.foot {
-        margin: 0 20%;
-    }
-
-    main {
-        color: var(--light-tone-1);
-        background: repeating-linear-gradient(
-                90deg,
-                var(--light-tone-4),
-                var(--light-tone-4) 0.1rem,
-                var(--light-tone-2) 0,
-                var(--light-tone-2) 3rem
-        );
-    }
-}
-
 
 /* Universal Styles */
 /* ===================================================== */
@@ -53,7 +36,7 @@ h2 {
 
 h5 {
     font-size: 3rem;
-    color: var(--light-tone-1);
+    color: var(--light-tone-2);
     margin: 0;
 }
 
@@ -425,5 +408,28 @@ footer.citation {
 
     footer .citation {
         display: block;
+    }
+}
+
+@media only screen and (min-width: 1555px) {
+    details, header, #welcome, footer.foot {
+        margin: 0 20%;
+    }
+
+    main {
+        color: var(--light-tone-1);
+        background: repeating-linear-gradient(
+                90deg,
+                var(--light-tone-4),
+                var(--light-tone-4) 0.1rem,
+                var(--light-tone-2) 0,
+                var(--light-tone-2) 3rem
+        );
+    }
+
+    .bites {
+        color: var(--warm-tone-3);
+        background: none;
+        background-color: var(--light-tone-2);
     }
 }
