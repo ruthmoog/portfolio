@@ -414,8 +414,15 @@ footer.citation {
         grid-template-columns: 1fr 1fr;
     }
 
+    #footer2 {
+        display: grid;
+        grid-column-start: 1;
+    }
+
     #footer1 {
+        display: grid;
         margin-left: 5rem;
+        grid-column-start: 2;
     }
 
     footer .citation {
