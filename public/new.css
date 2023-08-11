@@ -336,6 +336,7 @@ nav a:active, nav a:hover {
 summary {
     list-style: none;
     padding: 1rem;
+    cursor: pointer;
 }
 
 #community summary {
@@ -434,6 +435,7 @@ footer.citation {
         color: var(--warm-tone-3);
         background: none;
         background-color: var(--light-tone-2);
+        opacity: 90%;
     }
 }
 
