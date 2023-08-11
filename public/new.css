@@ -43,6 +43,7 @@ h5 {
 h4 {
     padding: 0;
     margin-top: 0;
+    font-family: sans-serif;
 }
 
 h6 {
@@ -51,6 +52,7 @@ h6 {
 
 p {
     margin: 0;
+    font-family: sans-serif;
 }
 
 a {
@@ -175,11 +177,12 @@ nav a:active, nav a:hover {
     margin: 1rem;
     font-size: 1.15rem;
     font-family: sans-serif;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.15rem;
     min-width: 20rem;
     min-height: 20rem;
     flex-basis: 2rem;
     flex-grow: 0;
+    line-height: 1.75rem;
 }
 
 
