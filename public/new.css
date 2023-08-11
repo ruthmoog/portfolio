@@ -15,6 +15,23 @@
 }
 
 
+@media only screen and (min-width: 1555px) {
+    details, header, #welcome, footer.footer {
+        margin: 0 20%;
+    }
+
+    main {
+        color: var(--light-tone-1);
+        background: repeating-linear-gradient(
+                90deg,
+                var(--light-tone-4),
+                var(--light-tone-4) 0.1rem,
+                var(--light-tone-2) 0,
+                var(--light-tone-2) 3rem
+        );
+    }
+}
+
 
 /* Universal Styles */
 /* ===================================================== */
@@ -296,6 +313,17 @@ nav a:active, nav a:hover {
 
 .bites p {
     font-size: 2.25rem;
+}
+
+#community {
+    color: var(--warm-tone-3);
+    background: repeating-linear-gradient(
+            45deg,
+            var(--light-tone-4),
+            var(--light-tone-4) 1rem,
+            var(--warm-tone-1) 0,
+            var(--warm-tone-1) 2rem
+    );
 }
 
 .bites {
