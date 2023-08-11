@@ -16,7 +16,7 @@
 
 
 @media only screen and (min-width: 1555px) {
-    details, header, #welcome, footer.footer {
+    details, header, #welcome, footer.foot {
         margin: 0 20%;
     }
 
@@ -106,13 +106,13 @@ nav a:active, nav a:hover {
 /* Section Styles */
 /* ===================================================== */
 
-#values a, #welcome a, .footer a {
+#values a, #welcome a, .foot a {
     color: darkcyan;
     text-decoration: none;
     border-bottom: dotted var(--light-tone-4) 0.17rem;
 }
 
-#values a:active, #values a:hover, #welcome a:active, #welcome a:hover, .footer a:active, .footer a:hover {
+#values a:active, #values a:hover, #welcome a:active, #welcome a:hover, .foot a:active, .foot a:hover {
     text-decoration: none;
     border-bottom: solid var(--warm-tone-4) 0.17rem;
 }
@@ -322,7 +322,7 @@ nav a:active, nav a:hover {
 #community {
     color: var(--warm-tone-3);
     background: repeating-linear-gradient(
-            45deg,
+            135deg,
             var(--light-tone-4),
             var(--light-tone-4) 1rem,
             var(--warm-tone-1) 0,
@@ -351,23 +351,25 @@ summary {
     color: var(--warm-tone-3);
 }
 
-
+footer.citation {
+    display: block;
+}
 
 
 /* Footer Style */
 /* ===================================================== */
 
-.footer a {
+.foot a {
     border-bottom: dotted var(--light-tone-2) 0.17rem;
 }
 
-.footer a:active, .footer a:hover {
+.foot a:active, .foot a:hover {
     background-color: deeppink;
     border-bottom: solid var(--warm-tone-6) 0.17rem;
     color: var(--light-tone-2);
 }
 
-.footer {
+.foot {
     background-color: var(--warm-tone-3);
     color: var(--light-tone-4);
     margin: 0;
@@ -376,7 +378,7 @@ summary {
     font-family: sans-serif;
 }
 
-.footer ul {
+.foot ul {
     background: var(--light-tone-4);
     padding: 1rem;
     color: var(--warm-tone-3);
@@ -387,9 +389,11 @@ summary {
     letter-spacing: 0.15rem;
 }
 
-.footer li {
+.foot li {
     margin-left: 1rem;
 }
+
+
 
 @media only screen and (min-width: 800px) {
 
@@ -397,7 +401,7 @@ summary {
         margin-left: 17rem;
     }
 
-    footer {
+    footer.foot {
         display: grid;
         gap: 1rem;
         grid-template-columns: auto auto;
@@ -411,5 +415,9 @@ summary {
     .footer2 {
         grid-column-start: 2;
         grid-column-end: 2;
+    }
+
+    footer .citation {
+        display: block;
     }
 }
