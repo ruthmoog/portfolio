@@ -38,6 +38,7 @@ h5 {
     font-size: 3rem;
     color: var(--light-tone-2);
     margin: 0;
+    font-family: sans-serif;
 }
 
 h4 {
@@ -248,9 +249,9 @@ nav a:active, nav a:hover {
 }
 
 .folio .project {
-    min-width: 25rem;
+    min-width: 23rem;
     max-width: 100%;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .links {
