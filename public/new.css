@@ -332,17 +332,31 @@ nav a:active, nav a:hover {
 .feature a {
     background-color: var(--warm-tone-3);
     color: var(--light-tone-4);
+    text-decoration: underline var(--warm-tone-5);
 }
 
 .testimonial a {
     background-color: var(--light-tone-4);
     color: var(--warm-tone-5);
+    text-decoration: underline var(--light-tone-1);
+
 }
 
-.testimonial a:active, .testimonial a:hover, .feature a:active, .feature a:hover {
-    border-bottom: var(--warm-tone-4) 1rem solid;
-    text-decoration: underline var(--light-tone-1);
+.testimonial a:active, .testimonial a:hover {
+    text-decoration: underline wavy var(--light-tone-2);
+    color: var(--warm-tone-6);
 }
+
+.feature a:active, .feature a:hover {
+    border-bottom: var(--warm-tone-4) 1rem solid;
+    text-decoration: underline dashed var(--warm-tone-1);
+    color: var(--light-tone-1);
+}
+
+footer .citation a, footer .citation a:active, footer .citation a:hover {
+    text-decoration: none;
+}
+
 
 .bites p {
     font-size: 2.25rem;
