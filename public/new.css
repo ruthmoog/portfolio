@@ -128,7 +128,20 @@ nav a:active, nav a:hover {
     color: var(--contrast-color);
 }
 
+a.skip {
+    position:           absolute;
+    z-index:            -999;
+    color:              transparent;
+}
 
+a.skip:focus {
+    background-color: gold;
+    color: black;
+    text-decoration: underline;
+    width: fit-content;
+    z-index: 999;
+    position: relative;
+}
 
 
 /* Section Styles */
@@ -507,4 +520,5 @@ footer.citation {
         margin: 0 19%;
     }
 }
+
 
